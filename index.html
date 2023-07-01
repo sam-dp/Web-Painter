@@ -15,13 +15,26 @@
 
     <div class="main">
         <div id="settings-container">
-            <button id="color-btn">Color</button>
-            <button id="random-btn">Randomizer</button>
+            <div id="colorbtns-container">
+                <input type=color id="picker-btn"></input>
+                <button id="color-btn">Color</button>
+
+            </div>
+
+            <button id="random-btn">Random Colors</button>
             <button id="eraser-btn">Eraser</button>
             <button id="clear-btn">Clear</button>
+
         </div>
     
         <div id="grid-container"> </div>
+
+        
+
+    </div>
+    <div id="gridsettings-container">
+        <div id="grid-size"> x </div>
+        <input type="range" min="2" max="100" value="50" class="slider" id="grid-range">
     </div>
     
 </body>
