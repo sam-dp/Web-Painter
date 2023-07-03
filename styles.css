@@ -94,6 +94,10 @@ button {
     opacity: 1; /* Fully shown on mouse-over */
 }
 
+.grid-element {
+    user-select: none;
+}
+
 
 
 
